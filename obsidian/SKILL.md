@@ -29,7 +29,8 @@ description: >
 3. Найди подтверждённые команды сборки, тестов, запуска одного теста, линтера и форматирования — в manifests, скриптах, Makefile, CI и README.
 4. Собери профиль для проверки изменений по [references/verification-rules.md](references/verification-rules.md).
 5. Собери Git-профиль по [references/git-rules.md](references/git-rules.md): remote и хостинг, ветки, история коммитов, шаблон PR, CI. Только чтение: без `fetch`, push и создания веток.
-6. Проверь, настроен ли Context7, и составь список внешних библиотек и фреймворков проекта по [references/context7.md](references/context7.md).
+6. Проверь, доступен ли навык `orchestration`, по [references/agents-template.md](references/agents-template.md).
+7. Проверь, настроен ли Context7, и составь список внешних библиотек и фреймворков проекта по [references/context7.md](references/context7.md).
 
 ### 1.2. Существующая память
 
@@ -118,7 +119,8 @@ Obsidian/[RepoName]Vault/
 3. блок Git и Pull Request по ответам пользователя — [references/git-rules.md](references/git-rules.md);
 4. блок проверки изменений — [references/verification-rules.md](references/verification-rules.md);
 5. блок Context7 — если пользователь выбрал его использовать, по [references/context7.md](references/context7.md);
-6. блок поведенческих правил — дословно из шаблона.
+6. блок оркестрации — только если навык `orchestration` доступен, по [references/agents-template.md](references/agents-template.md);
+7. блок поведенческих правил — дословно из шаблона.
 
 Настройку Context7 выполняй по разделу 3 той же справки, только если пользователь её выбрал.
 
