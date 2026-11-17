@@ -9,6 +9,7 @@
 | Память | `<!-- obsidian:start -->` … `<!-- obsidian:end -->` | эта справка |
 | Git и Pull Request | `<!-- git-rules:start -->` … `<!-- git-rules:end -->` | [git-rules.md](git-rules.md) |
 | Проверка изменений | `<!-- verification:start -->` … `<!-- verification:end -->` | [verification-rules.md](verification-rules.md) |
+| Context7 | `<!-- context7:start -->` … `<!-- context7:end -->` | [context7.md](context7.md), только если пользователь выбрал его использовать |
 | Поведенческие правила | `<!-- behavior:start -->` … `<!-- behavior:end -->` | эта справка, дословно |
 
 Каждый блок встречается в файле один раз. Блоки других навыков, например `<!-- agents-md-orchestration:start -->`, не изменяй и не перемещай.
@@ -31,6 +32,10 @@
 <!-- verification:start -->
 …
 <!-- verification:end -->
+
+<!-- context7:start -->
+…
+<!-- context7:end -->
 
 ## Дополнительные правила проекта   ← только при переносе правил без подходящего блока
 
